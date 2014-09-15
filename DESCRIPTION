@@ -1,0 +1,14 @@
+Package: utms
+Type: Package
+Title: Converts GPS Coordinates to UTMS Coordinate System
+Version: 1.0
+Date: 2014-09-14
+Author: Siddharth Thakur
+Maintainer: Siddharth Thakur <sid.thakur@outlook.com>
+Description: Takes in GPS Coordinates, assigns them Universal
+    Transverse Mercator System Zones. Then transforms the
+    GPS Coordinates to UTMS.
+License: GPL
+Imports:
+    rgdal,
+    sp
